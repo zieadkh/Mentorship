@@ -1,0 +1,35 @@
+//this pseudo code is not detailed to its finest, and describes the activity diagram of time management.
+
+userAuthentication(id, password){
+  if(id = manager id){
+    userLevel = manager;
+  }else{
+    userLevel = employee;
+  }
+}
+
+creatNewRequest(startTime, endTime, balance, type){
+  if (startTime <= currentTime &&
+      endTime <= currentTime && startTime == currentTime &&
+      balance == 0 &&
+      type == null ) {
+        error(errorDetails);
+  }else {
+    snedRequestToMnanager();
+  }
+}
+
+recievedRequest(){
+  let status;
+  acceptRequest(){
+    sendRequestStatus;
+    status = accept;
+  }
+  rejectRequest(){
+    sendRequestStatus(){
+      writeCommentWhy;
+    }
+    status = reject;
+  }
+  sendEmail(status);
+}
