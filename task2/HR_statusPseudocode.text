@@ -1,0 +1,40 @@
+
+
+userAuthentication(id, password){
+  if(id = manager id){
+    userLevel = manager;
+  }else{
+    userLevel = employee;
+  }
+}
+
+creatNewRequest(startTime, endTime, balance, type){
+  if (startTime <= currentTime &&
+      endTime <= currentTime && startTime == currentTime &&
+      balance == 0 &&
+      type == null ) {
+        error(errorDetails);
+  }else {
+    snedRequestToMnanager();
+  }
+}
+
+recievedRequest(otherStatus){
+  let status;
+  let HR_status = otherStatus;
+  acceptRequest(otherStatus){
+    sendRequestStatus;
+    if (otherStatus = HR_approval){
+      status = accept;
+    }else{
+      status = HR_pending;
+    }
+  }
+  rejectRequest(){
+    sendRequestStatus(){
+      writeCommentWhy;
+    }
+    status = reject;
+  }
+  sendEmail(status);
+}
